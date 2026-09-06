@@ -1,6 +1,6 @@
 cask "gamemaker@beta" do
-  version "2026.100.0.1121"
-  sha256 "540b5f91b233f8aff5630ae900a0d2e485fac53f678699c0f5632cd886dd333e"
+  version "2026.100.0.1142"
+  sha256 "0dc486da444e4ebeb2c4b2f7594bded9edc7d03ae0b80f701138157d6c90a169"
 
   url "https://gms.yoyogames.com/GameMaker-#{version}.pkg"
   name "GameMaker Beta"
