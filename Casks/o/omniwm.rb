@@ -11,7 +11,7 @@ cask "omniwm" do
   depends_on arch: :arm64
 
   app "OmniWM.app"
-  binary "#{appdir}/OmniWM.app/Contents/MacOS/omniwmctl", target: "omniwmctl"
+  binary "#{appdir}/OmniWM.app/Contents/MacOS/omniwmctl"
 
   zap trash: [
     "~/.config/omniwm",
