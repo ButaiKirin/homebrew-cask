@@ -19,6 +19,8 @@ cask "iaito" do
 
   app "iaito.app"
 
+  uninstall quit: "org.radare.iaito"
+
   zap trash: [
     "~/Library/Application Support/radareorg/iaito",
     "~/Library/Caches/radareorg/iaito",
