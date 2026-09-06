@@ -28,6 +28,8 @@ cask "litecoin" do
     set_permissions "Litecoin-Qt.app", "0755", base: :appdir
   end
 
+  uninstall quit: "org.litecoin.Litecoin-Qt"
+
   zap trash: [
     "~/Library/Application Support/Litecoin",
     "~/Library/Preferences/org.litecoin.Litecoin-Qt.plist",
