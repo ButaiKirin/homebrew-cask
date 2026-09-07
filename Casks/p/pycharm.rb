@@ -31,6 +31,8 @@ cask "pycharm" do
   command_wrapper "pycharm",
                   executable: "#{appdir}/PyCharm.app/Contents/MacOS/pycharm"
 
+  uninstall quit: "com.jetbrains.pycharm"
+
   zap trash: [
     "~/Library/Application Support/JetBrains/PyCharm#{version.major_minor}",
     "~/Library/Application Support/PyCharm#{version.major_minor}",
