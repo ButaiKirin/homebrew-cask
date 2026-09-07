@@ -8,7 +8,7 @@ cask "browseros" do
     sha256 arm:   "6c6935ce2a0387ce7980f674849023869f8d700638a8a378534b4d2ffe3d8d39",
            intel: "b396b885b8b919c1969e3da998feb7eebd58b51495b244168fd5546cb4af3c13"
 
-    depends_on macos: :monterey
+    depends_on macos: :ventura
 
     app "BrowserOS.app"
 
