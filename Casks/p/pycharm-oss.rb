@@ -33,6 +33,8 @@ cask "pycharm-oss" do
 
   app "PyCharm OSS.app"
 
+  uninstall quit: "com.jetbrains.pycharm.ce"
+
   zap trash: [
     "~/Library/Application Support/JetBrains/PyCharmCE*",
     "~/Library/Caches/JetBrains/PyCharmCE*",
