@@ -21,6 +21,8 @@ cask "atv-remote" do
 
   app "ATV Remote.app"
 
+  uninstall quit: "com.electron.atvMacRemote"
+
   zap trash: [
     "~/Library/Application Support/ATV Remote",
     "~/Library/Preferences/com.electron.atvDesktopRemote.plist",
