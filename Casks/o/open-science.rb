@@ -22,4 +22,9 @@ cask "open-science" do
   app "Open Science.app"
 
   uninstall quit: "com.aipoch.open-science"
+
+  zap trash: [
+    "~/Library/Caches/com.aipoch.open-science",
+    "~/Library/Saved Application State/com.aipoch.open-science.savedState",
+  ]
 end
