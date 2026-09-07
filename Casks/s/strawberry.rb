@@ -17,5 +17,9 @@ cask "strawberry" do
 
   app "Strawberry.app"
 
-  zap trash: "~/Library/Application Support/strawberry"
+  zap trash: [
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.mirror-browser.sfl*",
+    "~/Library/Application Support/strawberry",
+    "~/Library/Preferences/com.mirror-browser.plist",
+  ]
 end
