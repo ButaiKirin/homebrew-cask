@@ -12,7 +12,6 @@ cask "open-science" do
 
   livecheck do
     url :url
-    regex(/^v?(\d+\.\d+\.\d+)$/i)
     strategy :github_latest
   end
 
@@ -24,7 +23,11 @@ cask "open-science" do
   uninstall quit: "com.aipoch.open-science"
 
   zap trash: [
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.aipoch.open-science.sfl*",
+    "~/Library/Application Support/Open Science",
     "~/Library/Caches/com.aipoch.open-science",
+    "~/Library/Logs/Open Science",
+    "~/Library/Preferences/com.aipoch.open-science.plist",
     "~/Library/Saved Application State/com.aipoch.open-science.savedState",
   ]
 end
