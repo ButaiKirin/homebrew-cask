@@ -23,6 +23,8 @@ cask "yuanbao" do
 
   app "元宝.app"
 
+  uninstall quit: "com.tencent.yuanbao"
+
   zap trash: [
     "~/Library/Application Support/com.tencent.yuanbao",
     "~/Library/Caches/com.tencent.yuanbao",
