@@ -9,7 +9,7 @@ cask "ferdium@nightly" do
     sha256 arm:   "f581846ec508c4871a5558e0614db70e97058a1f07f731f4963b08404e149ea1",
            intel: "7ccfe6f3c0b4d350d5327e642710c38a478fd42c1be46e19138347f88e18371a"
 
-    depends_on macos: :monterey
+    depends_on macos: :ventura
 
     app "Ferdium.app"
 
