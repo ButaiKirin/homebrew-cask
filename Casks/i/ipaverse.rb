@@ -7,6 +7,11 @@ cask "ipaverse" do
   desc "App Store package downloader, IPA re-signer, and security analysis toolkit"
   homepage "https://github.com/bahattinkoc/ipaverse"
 
+  livecheck do
+    url :url
+    regex(/^v?(\d+(?:\.\d+)+)$/i)
+  end
+  
   depends_on macos: :sonoma
 
   app "ipaverse.app"
