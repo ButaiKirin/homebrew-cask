@@ -11,7 +11,7 @@ cask "ipaverse" do
     url :url
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
-  
+
   depends_on macos: :sonoma
 
   app "ipaverse.app"
