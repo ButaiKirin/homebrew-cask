@@ -14,7 +14,7 @@ cask "termius@beta" do
     strategy :electron_builder
   end
 
-  depends_on :macos
+  depends_on macos: :monterey
 
   app "Termius Beta.app"
 
