@@ -28,6 +28,7 @@ cask "elecom-mouse-util" do
             ]
 
   zap trash: [
+        "/Library/LaunchAgents/jp.com.ELECOM.autorun.MouseAssistant.plist",
         "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/jp.co.elecom.mouseassistantui.sfl*",
         "~/Library/Application Support/elecom_mouse_assistant_ui",
         "~/Library/Application Support/jp.co.ELECOM/MouseAssistant",
