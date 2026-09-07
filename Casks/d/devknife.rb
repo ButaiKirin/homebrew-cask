@@ -17,8 +17,11 @@ cask "devknife" do
 
   app "DevKnife.app"
 
+  uninstall quit: "com.solotuna.devknife"
+
   zap trash: [
     "~/Library/Application Support/com.solotuna.devknife",
+    "~/Library/Application Support/DevKnife",
     "~/Library/Preferences/com.solotuna.devknife.plist",
   ]
 end
