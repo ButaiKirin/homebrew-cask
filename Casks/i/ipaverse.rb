@@ -4,7 +4,7 @@ cask "ipaverse" do
 
   url "https://github.com/bahattinkoc/ipaverse/releases/download/v#{version}/ipaverse.dmg"
   name "ipaverse"
-  desc "Tool for downloading and managing iOS apps from the App Store"
+  desc "App Store downloader, IPA re-signer, and security analysis toolkit"
   homepage "https://github.com/bahattinkoc/ipaverse"
 
   depends_on macos: :sonoma
