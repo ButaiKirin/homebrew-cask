@@ -19,6 +19,8 @@ cask "preform" do
 
   app "PreForm.app"
 
+  uninstall quit: "com.formlabs.PreForm"
+
   zap trash: [
     "~/Library/Preferences/com.formlabs.PreForm.plist",
     "~/Library/Saved Application State/com.formlabs.PreForm.savedState",
